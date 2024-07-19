@@ -1,0 +1,85 @@
+<app-header></app-header>
+<div class="min-h-screen bg-gray-100 dark:bg-gray-900 p-6">
+    <div class="max-w-screen-xl mx-auto">
+      <!-- Header -->
+      <header class="flex justify-between items-center py-4">
+        <div class="text-2xl font-semibold text-gray-900 dark:text-white">
+          Dashboard
+        </div>
+        <nav class="flex space-x-4">
+          <a href="#" class="text-gray-600 dark:text-gray-300">Home</a>
+          <a href="#" class="text-gray-600 dark:text-gray-300">Profile</a>
+          <a href="#" class="text-gray-600 dark:text-gray-300">Settings</a>
+        </nav>
+      </header>
+  
+      <!-- Main Content -->
+      <main class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <!-- Total Money in Account -->
+        <div class="col-span-1 lg:col-span-2 bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+          <h2 class="text-xl font-semibold text-gray-900 dark:text-white">Total Money in Account</h2>
+          <div class="mt-4 text-3xl font-bold text-gray-900 dark:text-white">
+            $25,000.00
+          </div>
+        </div>
+  
+        <!-- Recent Transactions -->
+        <div class="col-span-1 bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+          <h2 class="text-xl font-semibold text-gray-900 dark:text-white">Recent Transactions</h2>
+          <div class="mt-4 space-y-4">
+            <div class="flex justify-between items-center p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+              <div class="text-gray-900 dark:text-white">Groceries</div>
+              <div class="text-red-500">-$150.00</div>
+            </div>
+            <div class="flex justify-between items-center p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+              <div class="text-gray-900 dark:text-white">Salary</div>
+              <div class="text-green-500">+$3,000.00</div>
+            </div>
+            <div class="flex justify-between items-center p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+              <div class="text-gray-900 dark:text-white">Rent</div>
+              <div class="text-red-500">-$1,200.00</div>
+            </div>
+            <div class="flex justify-between items-center p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+              <div class="text-gray-900 dark:text-white">Utilities</div>
+              <div class="text-red-500">-$200.00</div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Bank Card -->
+        <div class="col-span-1 lg:col-span-2 bg-white dark:bg-gray-800 rounded-lg shadow p-6 mt-6">
+          <h2 class="text-xl font-semibold text-gray-900 dark:text-white">Bank Card</h2>
+          <div class="mt-4 p-6 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg shadow-md flex justify-between items-center">
+            <div>
+              <div class="text-lg font-semibold text-gray-900 dark:text-white">John Doe</div>
+              <div class="text-sm text-gray-500 dark:text-gray-400">Card Number: **** **** **** 1234</div>
+              <div class="text-sm text-gray-500 dark:text-gray-400">Expiration: 12/25</div>
+            </div>
+            <div class="text-3xl text-gray-900 dark:text-white">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/MasterCard_early_1990s_logo.png" alt="MasterCard Logo" class="h-12">
+            </div>
+          </div>
+        </div>
+  
+        <!-- Beneficiary Information -->
+        <div class="col-span-1 bg-white dark:bg-gray-800 rounded-lg shadow p-6 mt-6">
+          <h2 class="text-xl font-semibold text-gray-900 dark:text-white">Beneficiary</h2>
+          <div class="mt-4 p-6 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg shadow-md flex justify-between items-center">
+            <div class="flex items-center">
+              <img src="https://mighty.tools/mockmind-api/content/human/57.jpg" alt="Beneficiary Logo" class="h-12 w-12 rounded-full object-cover">
+              <div class="ml-4">
+                <div class="text-lg font-semibold text-gray-900 dark:text-white">Oussama</div>
+                <div class="text-sm text-gray-500 dark:text-gray-400">ID: 1234567890</div>
+              </div>
+            </div>
+            <div>
+              <button class="text-sm text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-white focus:outline-none">
+                View Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+  
